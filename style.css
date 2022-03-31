@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #a1c3ff;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar {
+  height: 60px;
+  background-color: beige;
+  color: black;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.navbar .nav {
+  display: flex;
+}
+
+.nav .li {
+  margin: 10px;
+}
+
+.navbar ul li {
+  margin-left: 10px;
+  margin-right: 14px;
+}
+
+.navbar a {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background: black;
+  border-radius: 4px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  min-width: 400px;
+}
+
+.header h1 {
+  font-size: 42px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/*
+.boxes {
+  background: rgb(160, 157, 157);
+}*/
+
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  flex: 1;
+  background: rgb(160, 157, 157);
+  border-radius: 10px;
+  margin: 20px 10px;
+  color: white;
+  padding: 35px 28px;
+}
+
+.box h2 {
+  color: #a1c3ff;
+}
+
+.box i {
+  margin-right: 12px;
+}
